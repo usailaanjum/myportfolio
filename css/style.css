@@ -9,14 +9,21 @@
 }
 
 body {
-  margin:0;
+  margin:0 0 0 0;
+  height: 100%;
 }
-.container{
+/*.container{
   width: 1300px;
   margin-right: 0px;
   margin-left:0px;
-}
-
+} */
+ .section1{
+   position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+ }
 .main-body{
   background-color: #F7F5E6;
   background-size: cover;
@@ -25,10 +32,12 @@ body {
   padding-top: 15%;
   padding-bottom: 15%;
 
-
 }
 .connect{
-  padding-top: 100px;
+  padding-top: 80px;
+}
+.connect a {
+  padding:10px;
 }
 .custom-panel{
   background-color: #526585;
@@ -40,4 +49,11 @@ padding-top: 15%;
 text-align:center;
 align-items: center;
 
+}
+.change-text-color a{
+  color: aliceblue;
+  text-decoration: none;
+}
+a:hover{
+  color:blanchedalmond;
 }
